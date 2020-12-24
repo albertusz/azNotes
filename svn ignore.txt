@@ -1,0 +1,1 @@
+__pycache__ .vs *.exp *.iobj *.metagen *.project *.mk *.workspace *.gch *.zip *.xz *.spv *ncb *pch *suo *lnk *ilk *.obj *.res *.bak *.user *pdb *.cdf *.7z .git

@@ -1,0 +1,17 @@
+
+    Open the Windows 10 Mail application
+    Choose Add account
+    Choose Exchange – Exchange, Office 365
+    On the “Exchange” screen type your email address:  abc@out.com
+    Click Next
+    Password:  
+    Click Sign in
+    When prompted with the "Something went wrong" screen, click Advanced
+    Retype abc@out.com in username field
+    Server:  outlook.office365.com
+    Account name:  Your name
+    Click Sign in
+    Note: If you have Two-Step Login with Duo Security, you will be prompted to complete login using Duo.
+    When prompted ‘Are you sure you want to add, update, or remove your mail account’, click Yes
+    When prompted that account created, click Done
+
