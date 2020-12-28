@@ -1,0 +1,4 @@
+show environment var
+dir env:
+$env:path
+
