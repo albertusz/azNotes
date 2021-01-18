@@ -1,13 +1,19 @@
-installation in c:\skia
-install depot_tools
+download git and gn<br>
+use google's depot_tools if possible<br>
 
+also need python setup in the PATH<br>
 open cmd prompt<br>
+installation in c:\skia<br>
+git clone https://skia.googlesource.com/skia.git
+
 set GIT_EXECUTABLE=c:\skia\depot_tools\git.bat<br>
 cd c:\skia\skia<br>
 python tools/git-sync-deps<br>
 <br>
+Google only mention this for Windows build, and would have errors:
 gn gen out/release -args="is_official_build=true is_component_build=false"<br>
 <br>
+Use this instead:<br>
 gn gen out/release -args="is_debug=false is_official_build=true skia_use_system_expat=false skia_use_system_libjpeg_turbo=false skia_use_system_libpng=false skia_use_system_libwebp=false skia_use_system_zlib=false skia_use_system_icu=false skia_use_system_harfbuzz=false is_component_build=false"<br>
 <br>
 ninja -C out/release
