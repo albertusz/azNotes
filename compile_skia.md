@@ -2,14 +2,14 @@ installation in c:\skia
 install depot_tools
 
 open cmd prompt
-set GIT_EXECUTABLE=c:\skia\depot_tools\git.bat
-cd c:\skia\skia
-python tools/git-sync-deps 
-
-gn gen out/release -args="is_official_build=true is_component_build=false"
-
-gn gen out/release -args="is_debug=false is_official_build=true skia_use_system_expat=false skia_use_system_libjpeg_turbo=false skia_use_system_libpng=false skia_use_system_libwebp=false skia_use_system_zlib=false skia_use_system_icu=false skia_use_system_harfbuzz=false is_component_build=false"
-
+set GIT_EXECUTABLE=c:\skia\depot_tools\git.bat<br>
+cd c:\skia\skia<br>
+python tools/git-sync-deps<br>
+<br>
+gn gen out/release -args="is_official_build=true is_component_build=false"<br>
+<br>
+gn gen out/release -args="is_debug=false is_official_build=true skia_use_system_expat=false skia_use_system_libjpeg_turbo=false skia_use_system_libpng=false skia_use_system_libwebp=false skia_use_system_zlib=false skia_use_system_icu=false skia_use_system_harfbuzz=false is_component_build=false"<br>
+<br>
 ninja -C out/release
 
 
