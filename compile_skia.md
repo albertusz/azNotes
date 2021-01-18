@@ -1,7 +1,7 @@
 installation in c:\skia
 install depot_tools
 
-open cmd prompt
+open cmd prompt<br>
 set GIT_EXECUTABLE=c:\skia\depot_tools\git.bat<br>
 cd c:\skia\skia<br>
 python tools/git-sync-deps<br>
